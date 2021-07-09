@@ -25,12 +25,11 @@
     color: aliceblue;
     z-index: 1;
     background-color: black;
-    position: relative;
+    /* position: relative; */
 }
 
 .logo_link {
     color: antiquewhite;
-    /* margin: 20px; */
     background-color: black;
 }
 
@@ -42,8 +41,6 @@
 }
 
 .nav_item {
-    /* justify-content: center; */
-    /* padding: 20px; */
     height: 80px;
     background-color: black;
 }
@@ -63,4 +60,63 @@
     color: black;
     font-weight: bold;
     transition: all 0.3s ease;
+}
+
+.main_content {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+
+}
+
+.introduction_home {
+    background-color: aliceblue;
+    padding: 0 50px;
+    height: 700px;
+    background-image: url("./assets/11.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 3.0rem;
+    font-weight: 500;
+}
+
+.introduction_home_video_section {
+    background-color: white;
+    display: flex;
+    height: 400px;
+    align-items: center;
+}
+
+.introduction_home_video_description {
+    background-color: white;
+    /* left: 50px; */
+    padding-left: 50px;
+}
+
+.intro_video_title {
+    background-color: white;
+    padding: 10px 130px;
+    text-decoration: underline;
+    font-size: 2.2rem;
+}
+
+.intro_video_description {
+    background-color: white;
+    width: 60%;
+    padding: 10px 130px;
+    font-size: 1.3rem;
+}
+
+.video_div {
+    position: relative;
+    right: 100px;
 }
