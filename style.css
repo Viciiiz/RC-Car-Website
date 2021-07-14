@@ -13,11 +13,11 @@
     position: sticky;
     display: flex;
     width: 100%;
-    max-width: 1300px;
+    /* max-width: 1300px; */
     height: 80px;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 0 50px;
+    /* padding: 0 50px; */
 }
 
 .logo {
@@ -31,6 +31,7 @@
 .logo_link {
     color: antiquewhite;
     background-color: black;
+    padding-left: 50px;
 }
 
 .nav_item_container{
@@ -38,6 +39,7 @@
     align-items: center;
     text-align: center;
     list-style: none;
+    /* padding-right: 100px; */
 }
 
 .nav_item {
@@ -55,6 +57,10 @@
     background-color: black;
 }
 
+.nav_item:last-child {
+    padding-right: 100px;
+}
+
 .nav_item_link:hover{
     background-color: aliceblue;
     color: black;
@@ -64,7 +70,7 @@
 
 .main_content {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 50px;
 
@@ -119,4 +125,176 @@
 .video_div {
     position: relative;
     right: 100px;
+}
+
+.intro_about {
+    /* background-color: black; */
+}
+
+.intro_about_text {
+    background-color: black;
+    padding-top: 50px;
+}
+
+.intro_about_header {
+    color: white;
+    padding: 50px;
+    font-size: 2.4rem;
+    text-align: center;
+    background-color: black;
+}
+
+.intro_about_paragraph {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 60px 50px 60px;
+    background-color: black;
+}
+
+.intro_about_button_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+.intro_about_button {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+}
+
+.intro_about_button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+    /* border: none; */
+}
+
+.footer_div {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 50px;
+    height: 200px;
+}
+
+.footer_div_wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.footer_logo {
+    /* font-size: 3rem; */
+    padding: 10px 50px;
+    width: 30%;
+    border-right: 1px solid black;
+}
+
+.footer_logo_text {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.footer_rc_version {
+    padding: 10px 20px;
+}
+
+.footer_rc_version_header {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.footer_rc_version_list {
+    padding: 10px 20px;
+}
+
+.footer_rc_version_list_element {
+    
+}
+
+.footer_rc_version_list_element_link {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.footer_rc_version_list_element_link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer_sections_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_section {
+    padding: 30px 60px;
+    /* width: 30%; */
+}
+
+.footer_section:last-child {
+    padding-right: 300px;
+}
+
+.footer_section_header {
+    font-size: 1.6rem;
+}
+
+.footer_section_header:hover {
+    font-size: 1.6rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer_section_list {
+    padding: 10px 20px;
+}
+
+.footer_section_list_element {
+    padding-bottom: 5px;
+}
+
+.footer_section_list_element_link {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.footer_section_list_element_link:hover {
+    text-decoration: underline;
+}
+
+.footer_contact {
+    display: flex;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0px 0px 20px 0px;
+}
+
+.footer_contact_title_div {
+    
+}
+
+.footer_contact_title {
+    font-size: 1.4rem;
+    padding: 0px 50px 0px 60px;
+}
+
+i {
+    padding: 0px 10px;
+}
+
+.icon_footer:hover {
+    cursor: pointer;
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
 }
